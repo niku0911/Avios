@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Nikunj_CheckoutCustomForm::avios_menu" title="Avios Data" module="Nikunj_CheckoutCustomForm" sortOrder="51" resource="Nikunj_CheckoutCustomForm::avios_menu"/>
+        <add id="Nikunj_CheckoutCustomForm::avios" title="Avios Data" module="Nikunj_CheckoutCustomForm" sortOrder="10" action="nikunj_checkoutcustomform/avios" resource="Nikunj_CheckoutCustomForm::avios" parent="Nikunj_CheckoutCustomForm::avios_menu"/>
+    </menu>
+</config>
