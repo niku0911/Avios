@@ -45,6 +45,7 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
             $this->buttonList->remove('save');
         }
         $this->buttonList->remove('reset');
+    	$this->buttonList->remove('delete');
     }
 
     /**
